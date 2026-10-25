@@ -1,0 +1,12 @@
+shelly-bridge
+Copyright 2026 Yornik Heyl
+
+The RPC methods, reply fields, units and the authentication scheme come from
+Shelly's public Gen2 API documentation (https://shelly-api-docs.shelly.cloud/gen2/).
+No code was copied from it or from other projects. The test replies in
+tests/fixtures/ were written for this project, shaped like real Plus 1PM
+replies, with made-up identifiers, addresses and readings.
+
+This is an independent, unofficial project, not made, endorsed or supported by
+Shelly Group SE. Shelly and related names and logos are trademarks of Shelly
+Group SE, used only to identify the devices this software works with.

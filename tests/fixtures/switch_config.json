@@ -1,0 +1,15 @@
+{
+  "id": 0,
+  "name": "Boiler",
+  "in_mode": "detached",
+  "in_locked": false,
+  "initial_state": "off",
+  "auto_on": false,
+  "auto_on_delay": 60,
+  "auto_off": false,
+  "auto_off_delay": 60,
+  "power_limit": 4480,
+  "voltage_limit": 280,
+  "autorecover_voltage_errors": false,
+  "current_limit": 16
+}
