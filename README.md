@@ -393,10 +393,12 @@ containers:
       runAsUser: 65532
 ```
 
-NOTE: Use `/healthz`, not `/readyz`, for the readiness probe. A pod that isn't
-ready drops out of the Service, and Prometheus then can't scrape
-`shelly_scrape_success 0` when the device is away. Use `/readyz` for an
-external check of whether the device is being read.
+NOTE: Use `/healthz`, not `/readyz`, for the readiness probe. With `/readyz`,
+the pod turns unready whenever the device is away. Kubernetes and Argo CD then
+report a healthy bridge as broken, and generic alerts such as
+`KubePodNotReady` fire for a problem that `shelly_scrape_success` already
+reports. Use `/readyz` for an external check of whether the device is being
+read.
 
 The bridge only needs to reach the device on port 80. A NetworkPolicy that
 allows only that egress limits what a compromised pod could reach.
