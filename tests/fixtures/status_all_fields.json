@@ -1,0 +1,83 @@
+{
+  "ble": {},
+  "cloud": {
+    "connected": true
+  },
+  "input:0": {
+    "id": 0,
+    "state": false
+  },
+  "mqtt": {
+    "connected": false
+  },
+  "switch:0": {
+    "id": 0,
+    "source": "SHC",
+    "output": true,
+    "apower": 1103.4,
+    "voltage": 231.2,
+    "current": 4.771,
+    "aenergy": {
+      "total": 1234.567,
+      "by_minute": [
+        18390.1,
+        18388.0,
+        18391.2
+      ],
+      "minute_ts": 1792924140
+    },
+    "temperature": {
+      "tC": 48.5,
+      "tF": 119.3
+    },
+    "freq": 50.0,
+    "pf": 0.98,
+    "ret_aenergy": {
+      "total": 12.5,
+      "by_minute": [
+        0,
+        0,
+        0
+      ],
+      "minute_ts": 1792924140
+    },
+    "errors": [
+      "overtemp"
+    ]
+  },
+  "sys": {
+    "mac": "000000000000",
+    "restart_required": true,
+    "time": "10:29",
+    "unixtime": 1792924164,
+    "last_sync_ts": 1792923000,
+    "uptime": 3912345,
+    "ram_size": 250600,
+    "ram_free": 126500,
+    "ram_min_free": 104000,
+    "fs_size": 393216,
+    "fs_free": 122880,
+    "cfg_rev": 31,
+    "kvs_rev": 0,
+    "schedule_rev": 1,
+    "webhook_rev": 0,
+    "btrelay_rev": 0,
+    "available_updates": {
+      "stable": {
+        "version": "1.7.6"
+      }
+    },
+    "reset_reason": 1,
+    "utc_offset": 3600
+  },
+  "wifi": {
+    "sta_ip": "192.0.2.25",
+    "status": "got ip",
+    "ssid": "example-ssid",
+    "bssid": "00:00:5e:00:53:01",
+    "rssi": -60
+  },
+  "ws": {
+    "connected": false
+  }
+}
