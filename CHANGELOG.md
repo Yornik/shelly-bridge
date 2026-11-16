@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Yornik/shelly-bridge/compare/v1.0.0...v1.0.1) (2026-11-16)
+
+
+### Documentation
+
+* release the README warnings as v1.0.1 ([d2a626a](https://github.com/Yornik/shelly-bridge/commit/d2a626a89d412cdbddea452d38a6689f71891bf7))
+
 ## 1.0.0 (2026-10-25)
 
 
