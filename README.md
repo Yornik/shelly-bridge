@@ -31,6 +31,11 @@ and CI enforces that (see [Read-only, and how that's enforced](#read-only-and-ho
 > fault, an overload or a failing relay. Do not rely on them for safety. If you
 > use this on anything other than the setup it was built for, you do so at your
 > own risk.
+>
+> **No relation to Shelly.** I am not related to Shelly Group SE, the company
+> behind Shelly, in any way: I am not employed by it, paid by it or connected to
+> it. I am also not affiliated with the maker of my boiler or with any other
+> brand named here.
 
 > [!IMPORTANT]
 > **Unofficial project.** This isn't made, endorsed or supported by Shelly
