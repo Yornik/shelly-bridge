@@ -20,6 +20,23 @@ and CI enforces that (see [Read-only, and how that's enforced](#read-only-and-ho
 > serves HTTP only and has no protection against password guessing, so keep it
 > on a trusted network.
 
+> [!WARNING]
+> **Electricity.** The device this bridge reads switches mains power, for
+> example a water boiler of over 1 kW. Wiring a relay into a mains circuit can
+> kill you or start a fire if it is done wrong: have a qualified electrician do
+> it, with the supply switched off, and check that the relay, the wiring and the
+> circuit are rated for the load. The bridge only reads. It is not a safety
+> device: its power, current, voltage and temperature metrics, and any alert
+> built on them, can be late, wrong or missing, and they cannot see a wiring
+> fault, an overload or a failing relay. Do not rely on them for safety. If you
+> use this on anything other than the setup it was built for, you do so at your
+> own risk.
+>
+> **No relation to Shelly.** I am not related to Shelly Group SE, the company
+> behind Shelly, in any way: I am not employed by it, paid by it or connected to
+> it. I am also not affiliated with the maker of my boiler or with any other
+> brand named here.
+
 > [!IMPORTANT]
 > **Unofficial project.** This isn't made, endorsed or supported by Shelly
 > Group SE. **Shelly** and all related names and logos are trademarks of
@@ -462,7 +479,8 @@ Group SE. This project doesn't use the Shelly logo.
 support about it; open an issue in this repository instead.
 
 **Use at your own risk.** The exporter only reads, over the device's own local
-API. The software comes without any warranty. See [LICENSE](LICENSE).
+API, but the device it reads switches mains power: see the electricity warning
+at the top. The software comes without any warranty. See [LICENSE](LICENSE).
 
 ## License
 
